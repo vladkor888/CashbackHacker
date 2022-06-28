@@ -9,9 +9,9 @@ public class CashbackHackerTest {
 
     public void test1() {
         CashbackHacker cash = new CashbackHacker();
-        int amount = 2900;
+        int amount = 1000;
         int actual = cash.remain(amount);
-        int expected = 100;
+        int expected = 0;
         Assert.assertEquals(actual, expected);
     }
 }
